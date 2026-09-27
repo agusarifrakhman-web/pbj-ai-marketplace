@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "grandmaster-e-purchasing-v6",
+  "version": "1.6.0-community.1",
+  "description": "Community Edition co-pilot tata kelola keputusan E-Purchasing Katalog Elektronik V6.",
+  "author": {"name": "Agus Arif Rakhman, M.M., CPSp."},
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Grandmaster E-Purchasing V6 — Community Edition",
+        "shortDescription": "Dari kebutuhan hingga keputusan E-Purchasing yang siap diuji.",
+        "longDescription": "Community Edition untuk membantu diagnosis kebutuhan, pasar, pemilihan metode E-Purchasing, negosiasi, mini kompetisi, pengendalian dokumen, kontrak, dan audit trail pada Katalog Elektronik V6. Sumber resmi terbaru tetap menjadi rujukan utama untuk legalitas dan langkah aplikasi.",
+        "developerName": "Agus Arif Rakhman, M.M., CPSp.",
+        "category": "Productivity",
+        "capabilities": ["skills"],
+        "defaultPrompt": [
+          "Bantu diagnosis paket saya dari kebutuhan hingga keputusan metode dan dokumen yang perlu disiapkan.",
+          "Uji strategi negosiasi atau mini kompetisi berdasarkan pasar, TCO, risiko, dan regulasi terbaru.",
+          "Periksa konsistensi dokumen paket ini dan susun daftar perbaikan sebelum dilanjutkan."
+        ]
+      }
+    }
+  }
+}
