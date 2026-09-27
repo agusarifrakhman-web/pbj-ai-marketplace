@@ -1,0 +1,14 @@
+# Never commit private knowledge packs, credentials, or build artifacts
+*.env
+.env*
+*.key
+*.pem
+*.p12
+*.pfx
+private/
+private-knowledge/
+master-private/
+*.tar.gz
+*.zip
+.DS_Store
+__pycache__/
