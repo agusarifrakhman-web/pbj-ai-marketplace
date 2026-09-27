@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vanguard-pbj-advisor",
+  "version": "0.7.1-community.1",
+  "description": "Community Edition AI Strategic Procurement & Regulatory Intelligence Advisor untuk PBJ Pemerintah.",
+  "author": {"name": "Agus Arif Rakhman"},
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Vanguard PBJ Advisor — Community Edition",
+        "shortDescription": "PBJ strategic advisor + regulatory intelligence, crosswalk norma, risiko, dan opsi tindakan.",
+        "longDescription": "Community Edition dari Vanguard PBJ Advisor. Membantu analisis PBJ, regulatory intelligence, interpretasi sistematis anti-fragmentasi, crosswalk antar aturan, Value for Money, risiko dan opsi tindakan. Untuk isu hukum aktual, verifikasi sumber resmi terbaru sebelum menyimpulkan.",
+        "developerName": "Agus Arif Rakhman",
+        "category": "Education & Research",
+        "capabilities": ["skills"],
+        "defaultPrompt": [
+          "Telusuri dasar hukum PBJ yang relevan, petakan pasal/ayat dan jelaskan implikasinya terhadap kasus.",
+          "Buat regulatory crosswalk dan norm correlation map untuk persoalan pengadaan ini.",
+          "Analisis masalah PBJ ini dari sisi aturan, risiko, pasar, Value for Money, dan dokumen yang perlu disiapkan."
+        ]
+      }
+    }
+  }
+}
