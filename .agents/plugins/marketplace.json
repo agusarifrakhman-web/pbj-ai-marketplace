@@ -1,0 +1,26 @@
+{
+  "name": "pbj-ai-marketplace",
+  "plugins": [
+    {
+      "name": "vanguard-pbj-advisor",
+      "source": {"source": "local", "path": "./plugins/vanguard-pbj-advisor"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Education & Research",
+      "interface": {"displayName": "Vanguard PBJ Advisor — Community Edition"}
+    },
+    {
+      "name": "grandmaster-e-purchasing-v6",
+      "source": {"source": "local", "path": "./plugins/grandmaster-e-purchasing-v6"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity",
+      "interface": {"displayName": "Grandmaster E-Purchasing V6 — Community Edition"}
+    },
+    {
+      "name": "procurement-by-design",
+      "source": {"source": "local", "path": "./plugins/procurement-by-design"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Education & Research",
+      "interface": {"displayName": "Procurement by Design — Community Edition"}
+    }
+  ]
+}
