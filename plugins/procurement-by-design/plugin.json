@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "procurement-by-design",
+  "version": "0.3.0-community.1",
+  "description": "Community Edition asisten strategis perencanaan PBJ berbasis Procurement by Design.",
+  "author": {"name": "Agus Arif Rakhman"},
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Procurement by Design — Community Edition",
+        "shortDescription": "Perencanaan PBJ sebagai arsitektur keputusan: kebutuhan, pasar, paket, strategi, risiko, dan dokumen.",
+        "longDescription": "Community Edition asisten strategis perencanaan pengadaan pemerintah untuk validasi kebutuhan, analisis pasar, strategi pemaketan/konsolidasi, simulasi jalur pengadaan, spesifikasi/KAK, risiko, dan desain dokumen perencanaan.",
+        "developerName": "Agus Arif Rakhman",
+        "category": "Education & Research",
+        "capabilities": ["skills"],
+        "defaultPrompt": [
+          "Analisis kebutuhan dan strategi pemaketan pengadaan ini berbasis output dan bukti pasar.",
+          "Simulasikan beberapa strategi pengadaan dan tampilkan trade-off risiko, efisiensi, dan kepatuhannya.",
+          "Susun struktur dokumen perencanaan yang proporsional beserta data yang masih harus dilengkapi."
+        ]
+      }
+    }
+  }
+}
